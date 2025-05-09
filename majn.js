@@ -7,8 +7,8 @@ const imie = document.getElementById('imie');
     const wyslijBtn = document.getElementById('wyslijBtn');
 
     wyslijBtn.addEventListener('click', function () {
-      const i = imie.value.trim();
-      const n = nazwisko.value.trim();
+      const i = imie.value;
+      const n = nazwisko.value;
       const czyPelnoletni = pelnoletni.checked;
       const kolorTla = kolor.value;
 
