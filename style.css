@@ -11,7 +11,7 @@ body {
 
     input[type="text"],
     input[type="color"] {
-      width: 300px;
+      width: 50px;
       padding: 8px;
       margin-top: 5px;
       box-sizing: border-box;
