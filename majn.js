@@ -6,7 +6,6 @@ const imie = document.getElementById('imie');
     const czyscBtn = document.getElementById('czyscBtn');
     const wyslijBtn = document.getElementById('wyslijBtn');
 
-    // Obsługa przycisku "Wyślij"
     wyslijBtn.addEventListener('click', function () {
       const i = imie.value.trim();
       const n = nazwisko.value.trim();
@@ -23,7 +22,6 @@ const imie = document.getElementById('imie');
       }
     });
 
-    // Obsługa przycisku "Czyść"
     czyscBtn.addEventListener('click', function () {
       imie.value = '';
       nazwisko.value = '';
