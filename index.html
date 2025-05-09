@@ -9,22 +9,27 @@
     <script src='majn.js' defer></script>
 </head>
 <body>
-    <div class="container" id="formularzContainer">
-        <form id="formularz">
-            <label for="imie">Imię:</label><br>
-            <input type="text" id="imie" name="imie"><br><br>
+    <div class="kontener">
+        <h1>Formularz</h1>
+        <form id="mojFormularz">
+            <label for="imie">Imię:</label>
+            <input type="text" id="imie" name="imie">
 
-            <label for="nazwisko">Nazwisko:</label><br>
-            <input type="text" id="nazwisko" name="nazwisko"><br><br>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko">
 
-            <input type="checkbox" id="pelnoletni" name="pelnoletni">
-            <label for="pelnoletni">czy jesteś pełnoletni</label><br><br>
+            <label>
+                <input type="checkbox" id="pelnoletni" name="pelnoletni">
+                Czy jesteś pełnoletni?
+            </label>
 
-            <label for="kolor">kolor tła:</label><br>
-            <input type="color" id="kolor" name="kolor"><br><br>
+            <label for="kolor">Wybierz kolor tła:</label>
+            <input type="color" id="kolor" name="kolor" value="#ffffff">
 
-            <input type="submit" value="Wyślij">
+            <button type="button" id="czyscBtn">Czyść</button>
         </form>
+
+    <div id="wynik"></div>
   </div>
   
 </body>
