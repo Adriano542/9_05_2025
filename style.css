@@ -17,12 +17,20 @@
       font-weight: bold;
     }
 
-    input[type="text"],
-    input[type="color"] {
+    input[type="text"] {
       width: 100%;
       padding: 8px;
       margin-top: 5px;
       box-sizing: border-box;
+    }
+
+    input[type="color"] {
+      width: 60px;
+      height: 30px;
+      padding: 0;
+      border: none;
+      margin-top: 5px;
+      cursor: pointer;
     }
 
     input[type="checkbox"] {
@@ -39,6 +47,7 @@
 
     button {
       margin-top: 20px;
+      margin-right: 10px;
       padding: 10px 20px;
       font-size: 16px;
     }
